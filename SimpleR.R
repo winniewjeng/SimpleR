@@ -29,9 +29,9 @@ count <- 0
 while (age > 0) {
   age <- age - 10
   if (count <= 1) {
-    print(paste(count, " decade"))
+    print(paste(count, " decade"), quote = FALSE)
   } else {
-    print(paste(count, " decades"))
+    print(paste(count, " decades"), quote = FALSE)
   }
   count <- count + 1
 }
